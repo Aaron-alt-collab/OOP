@@ -1,4 +1,5 @@
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
 void setup(){
   size(800,600);
   
@@ -23,6 +24,8 @@ boolean pointCircle(float px, float py, float cx, float cy, float cr){
   
   
 =======
+=======
+>>>>>>> Stashed changes
 int counter = 0;
 int counter2 = 0;
 int counter3 = 0;
@@ -80,4 +83,7 @@ boolean pointCircle(float px, float py, float cx, float cy, float cr) {
     return false;
   }
 }
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
