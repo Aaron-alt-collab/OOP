@@ -1,31 +1,4 @@
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-void setup(){
-  size(800,600);
-  
-}
-void draw(){
-  background(50);
-  if(pointCircle(mouseX, mouseY,400, 350, 50)==true){
-  fill(125,0,0);
-  }else{
-    fill(0);
-  }
-  circle(400,200,20);
-  
-}
-  void mousePressed(){
-  
-  
-}
 
-boolean pointCircle(float px, float py, float cx, float cy, float cr){
-  
-  
-  
-=======
-=======
->>>>>>> Stashed changes
 int counter = 0;
 int counter2 = 0;
 int counter3 = 0;
@@ -74,7 +47,7 @@ void mousePressed() {
     
     if (pointCircle(mouseX, mouseY, 100, 500, 100)==true) {
     counter3++;
-  }
+  }    
 }
 boolean pointCircle(float px, float py, float cx, float cy, float cr) {
   if (dist(px, py, cx, cy) < cr) {
@@ -83,7 +56,3 @@ boolean pointCircle(float px, float py, float cx, float cy, float cr) {
     return false;
   }
 }
-<<<<<<< Updated upstream
->>>>>>> Stashed changes
-=======
->>>>>>> Stashed changes
